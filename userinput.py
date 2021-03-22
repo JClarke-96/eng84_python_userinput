@@ -1,10 +1,21 @@
 # Uses input to collect data from the user
+# Print to display the user's input
+# Then print the data type associated
 first_name = input("What is your first name?    ")
+print(first_name)
+print(type(first_name))
 last_name = input("What is your last name?  ")
+print(last_name)
+print(type(last_name))
 age = int(input("What is your age?  "))
+print(age)
+print(type(age))
 salary = int(input("What is your salary?    £"))
+print(salary)
+print(type(salary))
 date_of_birth = input("What is your date? (dd/mm/yy)    ")
+print(date_of_birth)
+print(type(date_of_birth))
 post_code = input("What is your post code?  ")
-
-# Prints all the information collected from the user
-print(first_name, last_name, "is", age, "has a salary of £", salary, "a date of birth of", date_of_birth, "and a post code of", post_code)
+print(post_code)
+print(type(post_code))
